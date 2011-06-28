@@ -1,3 +1,8 @@
+[B]Version 1.1.0[/B]
+- Removed dependency on danishaddons and feedparser module
+- Let XBMC handle the feeds using rss:// protocol
+- New icon and fanart
+
 [B]Version 1.0.3[/B]
 - Updated to danishaddons module 1.1.0
 - Use script.module.feedparser
