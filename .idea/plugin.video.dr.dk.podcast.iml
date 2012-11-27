@@ -5,8 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../Danish-XBMC-addons/script.module.danishaddons/xbmcstubs" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 2.7.2+ (/usr/bin/python2.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="xbmcstubs" />
   </component>
 </module>
 
