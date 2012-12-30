@@ -133,7 +133,7 @@ if __name__ == '__main__':
             heading = buggalo.getRandomHeading()
             xbmcgui.Dialog().ok(heading, 'It looks like you are using this addon in XBMC Eden.', 'This is not supported!', 'Please upgrade to XBMC Frodo instead.')
 
-        else:
+        elif PARAMS.has_key('content_type'):
             addon = DrDkPodcast(PARAMS['content_type'][0])
             if PARAMS.has_key('show'):
                 if PARAMS['show'][0] == 'podcasts':
