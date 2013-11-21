@@ -17,9 +17,12 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-import simplejson
 import urllib
 import urllib2
+try:
+    import json
+except:
+    import simplejson as json
 
 API_URL = 'http://www.dr.dk/podcast/api/%s'
 
@@ -80,7 +83,7 @@ class PodcastApi(object):
 
         if content is not None:
             try:
-                return simplejson.loads(content)
+                return json.loads(content)
             except Exception, ex:
                 raise PodcastException(ex)
         else:
@@ -102,6 +105,6 @@ class PodcastException(Exception):
 
 if __name__ == '__main__':
     api = PodcastApi(TYPE_TV)
-    json = api.getChannels()
-    s = simplejson.dumps(json, sort_keys=True, indent='    ')
+    c = api.getChannels()
+    s = json.dumps(c, sort_keys=True, indent='    ')
     print '\n'.join([l.rstrip() for l in s.splitlines()])

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e916ebb2-687a-4747-b376-528f1098adca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addon.py" afterPath="$PROJECT_DIR$/addon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addon.xml" afterPath="$PROJECT_DIR$/addon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changelog.txt" afterPath="$PROJECT_DIR$/changelog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/podcastapi.py" afterPath="$PROJECT_DIR$/podcastapi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/language/Danish/strings.po" afterPath="$PROJECT_DIR$/resources/language/Danish/strings.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/language/English/strings.po" afterPath="$PROJECT_DIR$/resources/language/English/strings.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../xbmcstubs/xbmcgui.py" afterPath="$PROJECT_DIR$/../xbmcstubs/xbmcgui.py" />
     </list>
@@ -33,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="changelog.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="changelog.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/changelog.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="36" selection-end="66" vertical-scroll-proportion="0.030405406" vertical-offset="0" max-vertical-offset="756">
+            <state line="1" column="2" selection-start="36" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -45,7 +39,7 @@
       <file leaf-file-name="addon.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3060">
+            <state line="9" column="11" selection-start="325" selection-end="325" vertical-scroll-proportion="-0.0" vertical-offset="162" max-vertical-offset="3060">
               <folding>
                 <element signature="e#805#814#0" expanded="true" />
               </folding>
@@ -71,12 +65,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="podcastapi.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="podcastapi.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/podcastapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="57" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="2016">
+            <state line="41" column="13" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.30236486" vertical-offset="559" max-vertical-offset="2070">
               <folding>
-                <element signature="e#805#822#0" expanded="true" />
+                <element signature="e#805#818#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,11 +104,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/addon.xml" />
-        <option value="$PROJECT_DIR$/podcastapi.py" />
         <option value="$PROJECT_DIR$/resources/language/Danish/strings.po" />
         <option value="$PROJECT_DIR$/resources/language/English/strings.po" />
         <option value="$PROJECT_DIR$/addon.py" />
         <option value="$PROJECT_DIR$/changelog.txt" />
+        <option value="$PROJECT_DIR$/podcastapi.py" />
       </list>
     </option>
   </component>
@@ -453,13 +447,18 @@
       <created>1356862398163</created>
       <updated>1356862398163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleanup and prepare for Gotham">
+      <created>1385050366127</created>
+      <updated>1385050366127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -476,7 +475,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -495,7 +493,8 @@
     <MESSAGE value="Updated to match site changes (thanks to Kenneth Jacobsen)" />
     <MESSAGE value="Complete rewrite with new features made possible by website changes" />
     <MESSAGE value="Fixed error related to starting addon from favourites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error related to starting addon from favourites" />
+    <MESSAGE value="Cleanup and prepare for Gotham" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup and prepare for Gotham" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -567,15 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/podcastapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="57" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="2016">
-          <folding>
-            <element signature="e#805#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/language/Danish/strings.po">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="31" selection-start="546" selection-end="546" vertical-scroll-proportion="-1.3650794" vertical-offset="166" max-vertical-offset="936">
@@ -590,19 +580,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="36" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3060">
+        <state line="9" column="11" selection-start="325" selection-end="325" vertical-scroll-proportion="-0.0" vertical-offset="162" max-vertical-offset="3060">
           <folding>
             <element signature="e#805#814#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/changelog.txt">
+    <entry file="file://$PROJECT_DIR$/podcastapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="36" selection-end="66" vertical-scroll-proportion="0.030405406" vertical-offset="0" max-vertical-offset="756">
-          <folding />
+        <state line="41" column="13" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.30236486" vertical-offset="559" max-vertical-offset="2070">
+          <folding>
+            <element signature="e#805#818#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
